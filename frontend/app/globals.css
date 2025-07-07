@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --cinema-red: 0 100% 50%;
+    --cinema-dark-red: 0 100% 30%;
+    --cinema-gold: 45 100% 50%;
+    --cinema-black: 0 0% 4%;
+    --cinema-dark: 0 0% 8%;
+    --cinema-light: 0 0% 96%;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+}
